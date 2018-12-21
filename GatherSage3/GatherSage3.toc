@@ -1,0 +1,13 @@
+## Interface: 40300
+## Version: 1
+## Title: GatherSage3
+## Author: Garkin (original authors: Kellewic and Rakreo)
+## Notes: Adds skill-level and other information to gathering item tooltips.
+
+GatherSage3.lua
+
+Fishing.lua
+Herbalism.lua
+Milling.lua
+Mining.lua
+Prospecting.lua
