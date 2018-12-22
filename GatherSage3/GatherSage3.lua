@@ -124,10 +124,14 @@ GameTooltip:HookScript('OnShow', function(tooltip, ...)
 				end;
 			end;
 		end;
-		if found then
+		if ((not gsHover) or (gsHover and found)) then
 			-- Add a line that shows the Professions and Skill Level required
 			--level = '|cffffffff(|r'..level..(gsDB[prof] and '|cffffffff/|r'..gsDB[prof] or "")..'|cffffffff)|r'
-			level = string.format('(%s/%s)', level, (gsDB[prof] and gsDB[prof] or "-"))
+			if gsDB[prof] then
+				level = string.format('|cffffffff(|r%s|cffffffff/%s)|r', level, gsDB[prof])
+			else
+				level = string.format('|cffffffff(|r%s|cffffffff)|r', level)
+			end
 			GameTooltip:AddDoubleLine(tipLine, level, r,g,b, r,g,b);
 			-- Add the line that shows what will be done
 			GameTooltip:AddLine(gsP[prof]);
