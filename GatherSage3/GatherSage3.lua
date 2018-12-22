@@ -110,6 +110,7 @@ GameTooltip:HookScript('OnShow', function(tooltip, ...)
 		local prof, level = strsplit(':', gsName);
 		-- Scan all the existing Tooltipl lines for "Requires xxx" and replace it
 		local tipLine, r, g, b
+		local found = false
 		for x = 1, GameTooltip:NumLines() do
 			-- Capture the current Tooltip line
 			tipLine = _G["GameTooltipTextLeft"..x]:GetText();
@@ -119,28 +120,31 @@ GameTooltip:HookScript('OnShow', function(tooltip, ...)
 			for _, v in pairs({'^Requires', ITEM_MILLABLE, ITEM_PROSPECTABLE}) do
 				if string.find(tipLine, v) then
 					_G["GameTooltipTextLeft"..x]:SetText();
+					found = true;
 				end;
 			end;
 		end;
-		-- Add a line that shows the Professions and Skill Level required
-		--level = '|cffffffff(|r'..level..(gsDB[prof] and '|cffffffff/|r'..gsDB[prof] or "")..'|cffffffff)|r'
-		level = string.format('(%s/%s)', level, (gsDB[prof] and gsDB[prof] or ""))
-		GameTooltip:AddDoubleLine(tipLine, level, r,g,b, 1,1,1);
-		-- Add the line that shows what will be done
-		GameTooltip:AddLine(gsP[prof]);
-		-- Loop thru all the Gathers that are available from this node
-		for _, v in pairs(ns.Chance[gsChance]) do
-			--Split each one into the Item Name and Drop Percentage
-			local i, p = strsplit(':', v);
-			-- Add the data to the Tooltip
-			if not tonumber(i) then
-				GameTooltip:AddDoubleLine(i, p, 1,1,1, 1,1,1);
-			else
-				GameTooltip:AddDoubleLine(GatherSage3:GetItemColor(i), p..'%', 1,1,1, 1,1,1);
-			end
-		end;
-		-- Redraw the GameTooltip
-		GameTooltip:Show();
+		if found then
+			-- Add a line that shows the Professions and Skill Level required
+			--level = '|cffffffff(|r'..level..(gsDB[prof] and '|cffffffff/|r'..gsDB[prof] or "")..'|cffffffff)|r'
+			level = string.format('(%s/%s)', level, (gsDB[prof] and gsDB[prof] or "-"))
+			GameTooltip:AddDoubleLine(tipLine, level, r,g,b, 1,1,1);
+			-- Add the line that shows what will be done
+			GameTooltip:AddLine(gsP[prof]);
+			-- Loop thru all the Gathers that are available from this node
+			for _, v in pairs(ns.Chance[gsChance]) do
+				--Split each one into the Item Name and Drop Percentage
+				local i, p = strsplit(':', v);
+				-- Add the data to the Tooltip
+				if not tonumber(i) then
+					GameTooltip:AddDoubleLine(i, p, 1,1,1, 1,1,1);
+				else
+					GameTooltip:AddDoubleLine(GatherSage3:GetItemColor(i), p..'%', 1,1,1, 1,1,1);
+				end
+			end;
+			-- Redraw the GameTooltip
+			GameTooltip:Show();
+		end
 	end;
 end)
 
