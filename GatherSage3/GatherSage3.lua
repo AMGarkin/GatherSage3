@@ -128,7 +128,7 @@ GameTooltip:HookScript('OnShow', function(tooltip, ...)
 			-- Add a line that shows the Professions and Skill Level required
 			--level = '|cffffffff(|r'..level..(gsDB[prof] and '|cffffffff/|r'..gsDB[prof] or "")..'|cffffffff)|r'
 			level = string.format('(%s/%s)', level, (gsDB[prof] and gsDB[prof] or "-"))
-			GameTooltip:AddDoubleLine(tipLine, level, r,g,b, 1,1,1);
+			GameTooltip:AddDoubleLine(tipLine, level, r,g,b, r,g,b);
 			-- Add the line that shows what will be done
 			GameTooltip:AddLine(gsP[prof]);
 			-- Loop thru all the Gathers that are available from this node
