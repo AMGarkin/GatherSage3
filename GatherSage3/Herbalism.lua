@@ -40,7 +40,7 @@ ns.Chance["Kingsblood"] = {'3356:100'};
 
 --herbs from Hillsbrad Foothills (needs 125), and object with the same name in Dragonblight (needs skill 400)
 ns.Name["Frozen Herb"] = "Herbalism:125 or 400";
-ns.Chance["Frozen Herb"] = {'Hillsbrad Foothills:', '2450:43', '2453:37', '785:19', 'Dragonblight:', '36901:60', '36904:20', '36907:20'};
+ns.Chance["Frozen Herb"] = {'|cffffd200Hillsbrad Foothills|r:', '2450:43', '2453:37', '785:19', '|cffffd200Dragonblight|r:', '36901:60', '36904:20', '36907:20'};
 
 ns.Name["Liferoot"] = "Herbalism:150";
 ns.Chance["Liferoot"] = {'3357:100'};

@@ -116,7 +116,7 @@ GameTooltip:HookScript('OnShow', function(tooltip, ...)
 					break
 				else
 					tipLine = string.format('Requires %s', prof)
-					if gsDB[prof] and gsDB[prof] >= tonumber(level) then
+					if gsDB[prof] and gsDB[prof] >= (tonumber(level) or 1) then
 						r, g, b = 1, 1, 1
 					else
 						r, g, b = 1, 0.1, 0.1
