@@ -9,11 +9,11 @@ ns.Name, ns.Chance, ns.ID = {}, {}, {}
 -- Skills we are watching --
 ----------------------------
 local gsP, gsAP = {}, {}
-gsP["Fishing"] = "Chance of ..."
-gsP["Mining"] = "Chance of ..."
-gsP["Herbalism"] = "Chance of ..."
-gsP["Milling"] = "(5) mill into ..."
-gsP["Prospecting"] = "Chance of ..."
+gsP["Fishing"] = "Chance of..."
+gsP["Mining"] = "Chance of..."
+gsP["Herbalism"] = "Chance of..."
+gsP["Milling"] = "(5) chance of..."
+gsP["Prospecting"] = "(5) chance of..."
 
 gsAP["Inscription"] = "Milling"
 gsAP["Jewelcrafting"] = "Prospecting"
@@ -113,9 +113,14 @@ GameTooltip:HookScript('OnShow', function(tooltip, ...)
 			for _, v in pairs({'^Requires', ITEM_MILLABLE, ITEM_PROSPECTABLE}) do
 				if string.find(tipLine, v) then
 					_G["GameTooltipTextLeft"..x]:SetText()
+					break
 				else
-					tipLine = prof
-					r, g, b = 1, 1, 1
+					tipLine = string.format('Requires %s', prof)
+					if gsDB[prof] and gsDB[prof] >= tonumber(level) then
+						r, g, b = 1, 1, 1
+					else
+						r, g, b = 1, 0.1, 0.1
+					end
 				end
 			end
 		end
