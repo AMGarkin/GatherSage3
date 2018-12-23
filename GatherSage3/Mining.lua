@@ -35,54 +35,54 @@ ns.Chance["Rich Thorium Vein"] = {'10620:100', '12365:100', '12363:13', '7910:4'
 
 --Outland
 ns.Name["Fel Iron Deposit"] = "Mining:275";
-ns.Chance["Fel Iron Deposit"] = {'23424:100', '22574:29', '22573:29', '35229:25', '23427:5', '|cff1eff00Uncommon Gem|r:0.37%', '|cff0070ddRare Gem|r:0.13%'};
+ns.Chance["Fel Iron Deposit"] = {'23424:100', '22574:29', '22573:29', '35229:25', '23427:5', '|cff1eff00Uncommon Gem|r |cffffd200(iLvl 65)|r:0.37%', '|cff0070ddRare Gem|r |cffffd200(iLvl 70)|r:0.13%'};
 
 ns.Name["Adamantite Deposit"] = "Mining:325";
-ns.Chance["Adamantite Deposit"] = {'23425:100', '22573:30', '23427:30', '35229:25', '|cff1eff00Uncommon Gem|r:0.77%', '|cff0070ddRare Gem|r:0.26%'};
+ns.Chance["Adamantite Deposit"] = {'23425:100', '22573:30', '23427:30', '35229:25', '|cff1eff00Uncommon Gem|r |cffffd200(iLvl 65)|r:0.77%', '|cff0070ddRare Gem|r |cffffd200(iLvl 70)|r:0.26%'};
 
 ns.Name["Rich Adamantite Deposit"] = "Mining:350";
-ns.Chance["Rich Adamantite Deposit"] = {'23425:100', '22573:81', '23427:50', '35229:25', '|cff1eff00Uncommon Gem|r:1.66%', '|cff0070ddRare Gem|r:0.52%'};
+ns.Chance["Rich Adamantite Deposit"] = {'23425:100', '22573:81', '23427:50', '35229:25', '|cff1eff00Uncommon Gem|r |cffffd200(iLvl 65)|r:1.66%', '|cff0070ddRare Gem|r |cffffd200(iLvl 70)|r:0.52%'};
 
 ns.Name["Khorium Vein"] = "Mining:375";
-ns.Chance["Khorium Vein"] = {'23426:100', '22573:100', '22574:100', '23427:30', '35229:25', '|cff1eff00Uncommon Gem|r:6%', '|cff0070ddRare Gem|r:2%'};
+ns.Chance["Khorium Vein"] = {'23426:100', '22573:100', '22574:100', '23427:30', '35229:25', '|cff1eff00Uncommon Gem|r |cffffd200(iLvl 65)|r:6%', '|cff0070ddRare Gem|r |cffffd200(iLvl 70)|r:2%'};
 
 --Northrend
 ns.Name["Cobalt Deposit"] = "Mining:350";
-ns.Chance["Cobalt Deposit"] = {'36909:100', '37701:29', '37705:29', '|cff1eff00Uncommon Gem|r:0.5%', '|cff0070ddRare Gem|r:0.25%'};
+ns.Chance["Cobalt Deposit"] = {'36909:100', '37701:29', '37705:29', '|cff1eff00Uncommon Gem|r |cffffd200(iLvl 75)|r:0.5%', '|cff0070ddRare Gem|r |cffffd200(iLvl 80)|r:0.25%'};
 
 ns.Name["Rich Cobalt Deposit"] = "Mining:375";
-ns.Chance["Rich Cobalt Deposit"] = {'36909:100', '37705:65', '37701:64', '|cff1eff00Uncommon Gem|r:1.5%', '|cff0070ddRare Gem|r:0.8%'};
+ns.Chance["Rich Cobalt Deposit"] = {'36909:100', '37705:65', '37701:64', '|cff1eff00Uncommon Gem|r |cffffd200(iLvl 75)|r:1.5%', '|cff0070ddRare Gem|r |cffffd200(iLvl 80)|r:0.8%'};
 
 ns.Name["Saronite Deposit"] = "Mining:400";
-ns.Chance["Saronite Deposit"] = {'36912:100', '37701:44', '37703:44', '|cff1eff00Uncommon Gem|r:0.50%', '|cff0070ddRare Gem|r:0.25%'};
+ns.Chance["Saronite Deposit"] = {'36912:100', '37701:44', '37703:44', '|cff1eff00Uncommon Gem|r |cffffd200(iLvl 75)|r:0.50%', '|cff0070ddRare Gem|r |cffffd200(iLvl 80)|r:0.25%'};
 
 ns.Name["Rich Saronite Deposit"] = "Mining:425";
-ns.Chance["Rich Saronite Deposit"] = {'36912:100', '37701:50', '37703:50', '|cff1eff00Uncommon Gem|r:8%', '|cff0070ddRare Gem|r:0.8%'};
+ns.Chance["Rich Saronite Deposit"] = {'36912:100', '37701:50', '37703:50', '|cff1eff00Uncommon Gem|r |cffffd200(iLvl 75)|r:8%', '|cff0070ddRare Gem|r |cffffd200(iLvl 80)|r:0.8%'};
 
 ns.Name["Pure Saronite Deposit"] = "Mining:450";
-ns.Chance["Pure Saronite Deposit"] = {'36912:100', '37701:50', '37703:50', '|cff1eff00Uncommon Gem|r (1-3):30%', '|cff0070ddRare Gem|r (4-7):21%'};
+ns.Chance["Pure Saronite Deposit"] = {'36912:100', '37701:50', '37703:50', '1-3x |cff1eff00Uncommon Gem|r  |cffffd200(iLvl 75)|r:~30%', '4-7x |cff0070ddRare Gem|r |cffffd200(iLvl 80)|r:~21%'};
 
 ns.Name["Titanium Vein"] = "Mining:450";
-ns.Chance["Titanium Vein"] = {'36910:100', '37700:50', '37701:51', '37702:50', '37705:50', '|cff1eff00Uncommon Gem|r (1-3):8%', '|cff0070ddRare Gem|r (4-7):1.6%'};
+ns.Chance["Titanium Vein"] = {'36910:100', '37700:50', '37701:51', '37702:50', '37705:50', '|cff1eff00Uncommon Gem|r |cffffd200(iLvl 75)|r:8%', '|cff0070ddRare Gem|r |cffffd200(iLvl 80)|r:1.6%'};
 
 --Cataclysm
 ns.Name["Ancient Gem Vein"] = "Mining:375";
 ns.Chance["Ancient Gem Vein"] = {'34907:100', '32227:18', '32230:18', '32228:18', '32229:17', '32231:17', '32249:17', '23437:10', '23436:10', '23440:9', '23441:9', '23439:9', '23438:8'};
 
 ns.Name["Obsidium Deposit"] = "Mining:425";
-ns.Chance["Obsidium Deposit"] = {'53038:100', '52327:9', '52328:3', '|cff1eff00Uncommon Gem|r (1-3):0.8%', '|cff0070ddRare Gem|r (4-7):0.16%'};
+ns.Chance["Obsidium Deposit"] = {'53038:100', '52327:9', '52328:3', '|cff1eff00Uncommon Gem|r |cffffd200(iLvl 81)|r:0.8%', '|cff0070ddRare Gem|r |cffffd200(iLvl 85)|r:0.16%'};
 
 ns.Name["Rich Obsidium Deposit"] = "Mining:450";
-ns.Chance["Rich Obsidium Deposit"] = {'53038:100', '52327:19', '52328:3', '|cff1eff00Uncommon Gem|r (1-3):0.8%', '|cff0070ddRare Gem|r (4-7):0.16%'};
+ns.Chance["Rich Obsidium Deposit"] = {'53038:100', '52327:19', '52328:3', '|cff1eff00Uncommon Gem|r |cffffd200(iLvl 81)|r:0.8%', '|cff0070ddRare Gem|r |cffffd200(iLvl 85)|r:0.16%'};
 
 ns.Name["Elementium Vein"] = "Mining:475";
-ns.Chance["Elementium Vein"] = {'52185:100', '52325:9', '52327:9', '52326:9', '52328:3', '|cff1eff00Uncommon Gem|r (1-3):0.8%', '|cff0070ddRare Gem|r (4-7):0.16%'};
+ns.Chance["Elementium Vein"] = {'52185:100', '52325:9', '52327:9', '52326:9', '52328:3', '|cff1eff00Uncommon Gem|r |cffffd200(iLvl 81)|r:0.8%', '|cff0070ddRare Gem|r |cffffd200(iLvl 85)|r:0.16%'};
 
 ns.Name["Rich Elementium Vein"] = "Mining:500";
-ns.Chance["Rich Elementium Vein"] = {'52185:100', '52325:19', '52327:19', '52326:19', '52328:3', '|cff1eff00Uncommon Gem|r (1-3):0.8%', '|cff0070ddRare Gem|r (4-7):0.16%'};
+ns.Chance["Rich Elementium Vein"] = {'52185:100', '52325:19', '52327:19', '52326:19', '52328:3', '|cff1eff00Uncommon Gem|r |cffffd200(iLvl 81)|r:0.8%', '|cff0070ddRare Gem|r  |cffffd200(iLvl 85)|r:0.16%'};
 
 ns.Name["Pyrite Deposit"] = "Mining:525";
-ns.Chance["Pyrite Deposit"] = {'52183:100', '52325:10', '52328:3', '|cff1eff00Uncommon Gem|r (1-3):0.8%', '|cff0070ddRare Gem|r (4-7):0.16%'};
+ns.Chance["Pyrite Deposit"] = {'52183:100', '52325:10', '52328:3', '|cff1eff00Uncommon Gem|r |cffffd200(iLvl 81)|r:0.8%', '|cff0070ddRare Gem|r |cffffd200(iLvl 85)|r:0.16%'};
 
 ns.Name["Rich Pyrite Deposit"] = "Mining:525";
-ns.Chance["Rich Pyrite Deposit"] = {'52183:100', '52325:19', '52328:3', '|cff1eff00Uncommon Gem|r (1-3):0.8%', '|cff0070ddRare Gem|r (4-7):0.16%'};
+ns.Chance["Rich Pyrite Deposit"] = {'52183:100', '52325:19', '52328:3', '|cff1eff00Uncommon Gem|r |cffffd200(iLvl 81)|r:0.8%', '|cff0070ddRare Gem|r |cffffd200(iLvl 85)|r:0.16%'};
