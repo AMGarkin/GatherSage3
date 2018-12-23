@@ -157,19 +157,19 @@ ns.Chance["Frost Lotus"] = {'36908:100', '37921:35', '37704:30'};
 
 --Cataclysm
 ns.Name["Cinderbloom"] = "Herbalism:425";
-ns.Chance["Cinderbloom"] = {'52983:100', '52329:39', '63122:9', '53328:3'};
+ns.Chance["Cinderbloom"] = {'52983:100', '52329:39', '63122:9', '52328:3'};
 
 ns.Name["Stormvine"] = "Herbalism:425";
-ns.Chance["Stormvine"] = {'52984:100', '52329:38', '63122:9', '53328:3'};
+ns.Chance["Stormvine"] = {'52984:100', '52329:38', '63122:9', '52328:3'};
 
 ns.Name["Azshara's Veil"] = "Herbalism:425";
-ns.Chance["Azshara's Veil"] = {'52985:100', '52329:38', '63122:9', '53328:3'};
+ns.Chance["Azshara's Veil"] = {'52985:100', '52329:38', '63122:9', '52328:3'};
 
 ns.Name["Heartblossom"] = "Herbalism:475";
-ns.Chance["Heartblossom"] = {'52986:100', '52329:37', '63122:9', '53328:3'};
+ns.Chance["Heartblossom"] = {'52986:100', '52329:37', '63122:9', '52328:3'};
 
 ns.Name["Whiptail"] = "Herbalism:500";
-ns.Chance["Whiptail"] = {'52988:100', '52329:39', '63122:10', '53328:3'};
+ns.Chance["Whiptail"] = {'52988:100', '52329:39', '63122:10', '52328:3'};
 
 ns.Name["Twilight Jasmine"] = "Herbalism:525";
-ns.Chance["Twilight Jasmine"] = {'52987:100', '52329:39', '63122:9', '53328:3'};
+ns.Chance["Twilight Jasmine"] = {'52987:100', '52329:39', '63122:9', '52328:3'};
