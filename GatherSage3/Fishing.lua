@@ -144,7 +144,7 @@ ns.Name["Steam Pump Flotsam"] = "Fishing:1"
 ns.Chance["Steam Pump Flotsam"] = {"27443:50", "27481:30", "22578:5", "27511:5", "27513:5", "27515:2", "27516:2", "27442:1"}
 
 ns.Name["Stonescale Eel Swarm"] = "Fishing:1"
-ns.Chance["Stonescale Eel Swarm"] = {"13442:85", "3820:5", "21228:5", "21151:5"}
+ns.Chance["Stonescale Eel Swarm"] = {"13422:85", "3820:5", "21228:5", "21151:5"}
 
 ns.Name["Strange Pool"] = "Fishing:1"
 ns.Chance["Strange Pool"] = {"21153:85", "3820:5", "21150:5", "21151:5"}
@@ -157,3 +157,60 @@ ns.Chance["Teeming Oily Blackmouth School"] = {"6358:85", "3820:5", "21228:5", "
 
 ns.Name["Waterlogged Wreckage"] = "Fishing:1"
 ns.Chance["Waterlogged Wreckage"] = {"21150:60", "3820:20", "21151:20"}
+
+
+--[[
+source: https://web.archive.org/web/20150224004651/http://www.elsanglin.com:80/zone_base_fishing_skill.html
+
+Zone Fishing Skill
+
+Old Azeroth:
+No-Junk Skill	Zones and Areas
+1	Blackrock Mountain, Burning Steppes, Mount Hyjal (Throne of Flame), Southern Barrens (Great Divide), Twilight Highlands (Cannon's Inferno) and Un'Goro Crater (Fire Plume Ridge)
+25	Azuremyst Isle, Blasted Lands (Tainted Forest), Dun Morogh, Durotar, Elwynn Forest, Eversong Woods, Mulgore, Teldrassil and Tirisfal Glades
+50	Gilneas (Worgen)
+75	Azshara (General), Blackfathom Deeps, Bloodmyst Isle, Darkshore, Darnassus, The Deadmines, Ghostlands, Gilneas (Ruins), Ironforge, Loch Modan, Northern Barrens (except Oasis), Orgrimmar, Redridge Mountains (General), Silverpine Forest, Stormwind City, Thunder Bluff, Undercity, The Veiled Sea, The Wailing Caverns and Westfall
+100	Northern Barrens (Oasis)
+150	Arathi Highlands (General), Ashenvale, Duskwood, Hillsbrad Foothills, Northern Stranglethorn (General), Redridge Mountains (Lake Everstill), Stonetalon Mountains and Wetlands
+225	Arathi Highlands (Forbidding Sea), The Cape of Stranglethorn, Desolace, Dustwallow Marsh, Feralas (General), The Forbidding Sea, The Great Sea, The Hinterlands, Scarlet Monastery, Southern Barrens (General) and Western Plaguelands
+300	Azshara (Ruins of Arkkoran), Badlands, Eastern Plaguelands, Felwood, Feralas (Verdantis River), Maraudon, Moonglade, Northern Stranglethorn (South Seas), Tanaris, The Temple of Atal'Hakkar and Thousand Needles
+375	Un'Goro Crater (General)
+425	Blasted Lands (Coastal), Deadwind Pass, Dire Maul, Feralas (Jademir Lake), Scholomance, Searing Gorge, Silithus, Stratholme, Swamp of Sorrows and Winterspring
+450	Isle of Quel'Danas
+575	Mount Hyjal (General) and Vashj'ir
+650	Twilight Highlands (General) and Uldum
+675	Tol Barad
+
+Outland:
+No-Junk Skill	Zones and Areas
+375	Hellfire Peninsula, Nagrand (Outland) (Forge Camp Hate) and Shadowmoon Valley (Outland)
+400	Coilfang Reservoir and Zangarmarsh (East)
+450	Terokkar Forest (Rivers) and Zangarmarsh (West)
+475	Nagrand (Outland) (General) and Netherstorm
+490	Nagrand (Outland) (Lakes)
+500	Terokkar Forest (Lakes)
+
+Isle of Quel'Danas is not in Outland, but is only available with The Burning Crusade.
+
+Northrend:
+No-Junk Skill	Zones and Areas
+475	Borean Tundra, Dragonblight, Grizzly Hills, Howling Fjord and Zul'Drak
+500	Crystalsong Forest
+525	Dalaran, Sholazar Basin and Wintergrasp
+550	Hrothgar's Landing, Icecrown, Storm Peaks and Ulduar
+575	The Frozen Sea
+650	The Ruby Sanctum
+
+The Frozen Sea is the deep sea that surrounds Northrend. It is not formally a zone. However it has different skill requirements and catches from nearby zones: It does not follow the old Azeroth pattern, where seas share the characteristics of the nearest zone. Icecrown, Storm Peaks and Zul'Drak do not contain any fish.
+
+Cataclysm:
+No-Junk Skill	Zones and Areas
+1	Mount Hyjal (Throne of Flame) and Twilight Highlands (Cannon's Inferno)
+25	The Lost Isles
+50	Gilneas (Worgen)
+550	Deepholm
+575	Mount Hyjal (General) and Vashj'ir
+650	Twilight Highlands (General) and Uldum
+675	Tol Barad
+
+--]]
