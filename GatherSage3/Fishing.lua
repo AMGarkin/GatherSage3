@@ -66,7 +66,7 @@ ns.Name["Highland Guppy School"] = "Fishing:1"
 ns.Chance["Highland Guppy School"] = {"53064:100", "52326:10", "22739:0.5", "46109:0.1"}
 
 ns.Name["Highland Mixed School"] = "Fishing:1"
-ns.Chance["Highland Mixed School"] = {"27439:65", "27438:15", "22578:5", "27513:5", "27511:4", "27515:2", "27516:2", "27442:1", "27338:0.5"}
+ns.Chance["Highland Mixed School"] = {"27439:65", "27438:15", "22578:5", "27513:5", "27511:4", "27515:2", "27516:2", "27442:1", "27388:0.5"}
 
 ns.Name["Imperial Manta Ray School"] = "Fishing:1"
 ns.Chance["Imperial Manta Ray School"] = {"41802:90", "40199:65", "37705:5", "44475:5", "50289:1", "46109:0.1"}
